@@ -1,0 +1,151 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+} */
+.icon{
+    font-family: 'Diplomata SC', cursive;
+    font-size: 20px;
+}
+.nav-item a:hover{
+    background-color: black;
+    color: aliceblue;
+    letter-spacing: 2px;
+    font-family: 'Roboto Slab', serif;
+}
+#Home{
+    /* padding-left: 50px;
+    padding-top: 30px;
+    padding-right: 50px;
+    padding-bottom: 30px; */
+}
+#img1{
+    height: 700px;
+    width: 100%;
+}
+#info span{
+    color: red;
+}
+#heading{
+    font-size: 70px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    margin: 177px;
+    text-shadow: 5px 3px 10px black;
+}
+#info{   
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    font-family: 'Poppins',
+        sans-serif;
+        font-weight: 1000;
+}
+#info div{
+    margin-top: 180px;
+}
+#About{
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    background-color: rgb(74, 69, 69);
+    color: white;
+}
+#text{
+    margin-top: 20px;
+}
+#Skills{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    background-color: white;
+}
+.heading1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 26px;
+    text-decoration:underline;
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 3px;
+}
+.btn{
+    width: 100%;
+    margin-top: 30px;
+    align-items: center;
+}
+.card{
+    align-content: center;
+    text-align: center;
+    color: black;
+}
+#Education{
+    background-color: rgb(93, 93, 105);
+    padding-top: 40px;
+    padding-bottom: 10px;
+    color: white;
+}
+#Education box{
+    display: flex;
+}
+#Education box div{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Work{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+#Contact{
+    background-color: cornflowerblue;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container {
+    position: relative;
+}
+
+.image {
+    display: block;
+    width: 200px;
+    height: 200px;
+    
+}
+.box{
+    display: flex;
+    margin-top: 20px;
+    
+}
+.box div{
+    margin: auto;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 200px;
+    width: 200px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008bba71;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
